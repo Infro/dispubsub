@@ -23,7 +23,7 @@ $(function() {
     });
 
     $('#orderDetails tr.clickToOrder').click(function (el) {
-        const order = this.data.fullOrder;
+        var order = this.data.fullOrder;
         // copy order to clipboard
         // Url decode the order
         order = decodeURIComponent(order);
