@@ -9,7 +9,7 @@
             width: 100%;
             border-collapse: collapse;
         }
-        th, td {
+        th, th {
             border: 1px solid #ddd;
             padding: 8px;
         }
@@ -22,25 +22,21 @@
 </head>
 <body>
 
-<h1>Order Details</h1>
+<h1>Option Details</h1>
 <table>
     <thead>
-        <tr>
-            <th>Order Execution Type</th>
-            <th>Order Purchase Type</th>
+        <tr><th>E</th>
+            <th>Buy/Sell</th>
+            <th>Symbol</th>
+            <th>Strike</th>
             <th>Price</th>
             <th>Quantity</th>
-            <th>Symbol</th>
+            <th>Badly Estimated Total</th>
             <th>Expiration</th>
-            <th>Trail</th>
-            <th>Create Order</th>
         </tr>
     </thead>
     <tbody id="orderDetails"></tbody>
 </table>
-<script>
-
-</script>
 <style>
     .clickToOrder {
         cursor: pointer;
@@ -54,3 +50,4 @@
 </style>
 </body>
 </html>
+<!-- SELL -1 SPY 100 10 OCT 24 567 CALL @8.99 TRSTPLMT MARK-.10 MARK -->
